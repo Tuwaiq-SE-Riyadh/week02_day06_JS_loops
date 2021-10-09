@@ -1,5 +1,7 @@
 # week02_day06_JS_loops
 
+Create an html file and link to a js file, then solve the following questions in the js file.
+
 ## For loop
 ### Fibonacci sequence: 
 
