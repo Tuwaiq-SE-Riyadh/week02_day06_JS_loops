@@ -57,16 +57,23 @@ function odd(m){
     }
     // Q2
     function ispowerof2(n){
-        if (n == 0) 
-            console.log("No")
     
-            if (n%2 != 0) {
-               console.log("No")
-            }else{
-            console.log("Yes")
+            if(n==0) { 
+                console.log("No")
+             }
+            while(n != 1)
+            {
+                n = n/2;
+                if(n%2 != 0 && n != 1){ 
+                    console.log("No")
+                    break;
+                }
+                console.log("Yes")
+            }
+            
 
-        } 
     }
+    
 
 
 
