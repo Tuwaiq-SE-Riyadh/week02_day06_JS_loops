@@ -46,3 +46,14 @@ function power(x){
     }
     console.log(y);
 }
+function getMaxOfArray(numArray) {
+    return Math.max(null, numArray);
+  }
+  const a=[1,2,3,4]
+  function sumAraary(a) {
+    for (let i=1; i<a.length;i++){ 
+        let sum=0;
+        sum +=a[i]
+    }
+    console.log(sum);
+  }
