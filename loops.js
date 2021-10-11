@@ -18,9 +18,20 @@ function Fibonacci(){
 }
 
 
-function power(num){
-    for(let i=1;i<=num;i++){
-        console.log(Math.pow(i,2 ));
+function power2(num){
+    // for(let i=1;i<=num;i++){
+    //     console.log(Math.Sqrt(i,2 ));
+    // }
+    let num2 = num
+    while (num2 > 2){
+        
+        num2 = num2/2
+    }
+    if (num2 === 2){
+        console.log("The number "+num+" is power of 2");
+    }
+    else{
+        console.log("The number "+num+" is NOT power of 2");
     }
 }
 
