@@ -67,21 +67,34 @@ function oddNumbers(number)
 // power of 2
 function powerOf2(number)
 {   
-    let flag = false
-    let x = 1
+    // let flag = false
+    // let x = 1
+    // while(x<=1000)
+    // {
+    //     if(Math.pow(x,2) == number)
+    //     {
+    //         flag = true
+    //         console.log(flag)
+    //         break;
+    //     }
+    //     x ++
+    // }
+    // if(flag == false)
+    // {
+    //     console.log(flag)
+    // }
 
-    while(x<=1000)
+    // Improve the improve the solution
+    while(number%2 == 0)
     {
-        if(Math.pow(x,2) == number)
-        {
-            flag = true
-            console.log(flag)
-            break;
-        }
-        x ++
+        number  = number /2 ;
+
     }
-    if(flag == false)
+    if(number === 1)
     {
-        console.log(flag)
+        console.log("true")
+    }
+    else{
+        console.log("false")
     }
 }
