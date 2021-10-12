@@ -46,12 +46,18 @@ function oddNum(n){
 }
 
 function pwrOf2(n){
-
-    if((n & (n - 1)) == 0)  //formula source: https://stackoverflow.com/questions/108318/whats-the-simplest-way-to-test-whether-a-number-is-a-power-of-2-in-c
+  
+    while(n%2===0){ 
+    n=n/2
+    if(n===1){  
       console.log("True")
-      else
-      console.log("0")
-    
+      break
+    }
+      
+    }
+     if(n!==1) {
+        console.log("0")
+        }
 }
 
 
